@@ -19,30 +19,11 @@ export default [
         'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTZncVOQQwurylMx0pxbaEk5RfIFaSQK1mCfw&usqp=CAU',
     },
     {
-        id: '23435443',
-        price: '$55.00',
-        title: 'Gold Leggin',
-        userPic:
-          'https://scontent.fnvt1-1.fna.fbcdn.net/v/t1.0-9/87410391_100250011600578_461725781937094656_o.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=fJuZOVlj_I8AX-qBjBO&_nc_ht=scontent.fnvt1-1.fna&oh=62389e5c5f5a3751087c9cd4094951a8&oe=5F2DB372',
-        image:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTZncVOQQwurylMx0pxbaEk5RfIFaSQK1mCfw&usqp=CAU',
-      },
-       {
-      id: '23435443',
-      price: '$55.00',
-      title: 'Gold Leggin',
       userPic:
         'https://scontent.fnvt1-1.fna.fbcdn.net/v/t1.0-9/87410391_100250011600578_461725781937094656_o.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=fJuZOVlj_I8AX-qBjBO&_nc_ht=scontent.fnvt1-1.fna&oh=62389e5c5f5a3751087c9cd4094951a8&oe=5F2DB372',
       image:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTZncVOQQwurylMx0pxbaEk5RfIFaSQK1mCfw&usqp=CAU',
     },
-    {
-        id: '23435443',
-        price: '$55.00',
-        title: 'Gold Leggin',
-        userPic:
-          'https://scontent.fnvt1-1.fna.fbcdn.net/v/t1.0-9/87410391_100250011600578_461725781937094656_o.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=fJuZOVlj_I8AX-qBjBO&_nc_ht=scontent.fnvt1-1.fna&oh=62389e5c5f5a3751087c9cd4094951a8&oe=5F2DB372',
-        image:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTZncVOQQwurylMx0pxbaEk5RfIFaSQK1mCfw&usqp=CAU',
-      },
+
+  
 ];

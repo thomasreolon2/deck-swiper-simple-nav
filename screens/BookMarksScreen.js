@@ -10,29 +10,19 @@ import {
   ScrollView,
   TouchableOpacity,
   Image,
+  Slider,
 } from 'react-native';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 //import { FlatList } from 'react-native-gesture-handler';
 import favoritedata from '../favoritedata';
 
-const BookMarksScreen = ({navigation}) => {
+
+
+const BookMarksScreen = ({ navigation }) => {
+
   return (
     <View style={styles.container}>
-      <FlatList
-        data={favoritedata}
-        renderItem={({item}) => (
-          <View style={{flex: 1, flexDirection: 'column', margin: 1}}>
-              <TouchableOpacity>
-            <Image style={styles.imageThumbnail} source={{uri: item.image}} />
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.userTouchableUser}>
-                    <Image source={{uri: item.userPic}} style={styles.userCardImage} />
-                 </TouchableOpacity>
-          </View>
-        )}
-        //Setting the number of column
-        numColumns={3}
-        keyExtractor={(item, id) => id}
-      />
+
     </View>
   );
 };
@@ -47,9 +37,10 @@ const styles = StyleSheet.create({
   },
 
   imageThumbnail: {
-    // resizeMode: 'contain'
+    //resizeMode: 'contain',
     justifyContent: 'space-evenly',
-    marginLeft: 10,
+    marginLeft: 5,
+    marginRight: 5,
     marginTop: 10,
     alignItems: 'center',
     height: 300,
@@ -67,22 +58,19 @@ const styles = StyleSheet.create({
     //shadow
     backgroundColor: 'white',
     top: -20,
-    
   },
   title: {
     fontSize: 32,
   },
   userCardImage: {
-    width: 50,
-    height: 50,
+    width: 40,
+    height: 40,
     borderRadius: 50,
     // backgroundColor: 'transparent',
     // overflow: "hidden",
   },
   userTouchableUser: {
     position: 'absolute',
-    top: 5,
-    left:2,
 
     alignItems: 'flex-start',
     flex: 1,
@@ -93,8 +81,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: 'rgba(0,0,0,0)',
 
-    width: 53,
-    height: 53,
+    width: 40,
+    height: 40,
     backgroundColor: '#fff',
     borderRadius: 50,
   },
