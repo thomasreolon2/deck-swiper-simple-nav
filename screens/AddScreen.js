@@ -3,14 +3,14 @@ import {View, Text, Button, StyleSheet, TextInput} from 'react-native';
 
 const AddScreen = ({navigation}) => {
     
-        const [value, onChangeText] = React.useState('Useless Placeholder');
 
         
     return (
        
         <View style={styles.container}>
-      
-              
+          
+                //go to Homescreen
+        
         </View>
     );
 };
