@@ -10,11 +10,7 @@ const AddScreen = ({navigation}) => {
        
         <View style={styles.container}>
       
-            <TextInput
-      style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
-      onChangeText={text => onChangeText(text)}
-      value={value}
-    />
+              
         </View>
     );
 };
