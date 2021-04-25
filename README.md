@@ -27,4 +27,3 @@ Please make sure to update tests as appropriate.
 
 :relaxed:
 
-![result-example](https://user-images.githubusercontent.com/58967808/87843496-6cd30700-c88b-11ea-9579-fc9d4509bfdc.gif)
